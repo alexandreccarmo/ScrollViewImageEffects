@@ -13,5 +13,6 @@ struct IconEffects_App: App {
         WindowGroup {
             Scrolling()
         }
+        .modelContainer(for: Place.self)
     }
 }
